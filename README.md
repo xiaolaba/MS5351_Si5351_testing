@@ -23,6 +23,7 @@ this is code snipet
 
 
 ### the complete code
+[si5351_outputs/](si5351_outputs/)
 as library provided, modified a bit to used to test the MS351, change to 2MHz, commented as many as possible to see thay pulse chain pasued 200us at every period of 98Hz.  
 
 ### the result
@@ -41,6 +42,6 @@ S5351_MS5351_compare1.JPG
 
 ### my own pure-C source and project, the same result
 no uses any library of Si5351,
-uses Arduino UNO and MS5351 as test platform. 
-complete project file, build.bat will build hext and burn to UNO (Atmega328 chip)
-![C_testing_done/](C_testing_done/)  
+uses Arduino UNO and MS5351 as test platform.  
+complete project file, build.bat will build hext and burn to UNO (Atmega328 chip)  
+[C_testing_done/](C_testing_done/)  
