@@ -3,13 +3,16 @@
 #include <avr/pgmspace.h>
 #include "i2c.h"
 
+#define MS5351_I2C_ADDRESS 0x60
 #define I2C_START 0x08
 #define I2C_START_RPT 0x10
 #define I2C_SLA_W_ACK 0x18
 #define I2C_SLA_R_ACK 0x40
 #define I2C_DATA_ACK 0x28
-#define I2C_WRITE 0b11000000
-#define I2C_READ  0b11000001
+//#define I2C_WRITE 0b11000000
+//#define I2C_READ  0b11000001
+#define I2C_WRITE (MS5351_I2C_ADDRESS<<1) +0
+#define I2C_READ  (MS5351_I2C_ADDRESS<<1) +1
 
 uint8_t i2cStart()
 {
