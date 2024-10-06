@@ -15,6 +15,9 @@ this is code snipeet
 ```
 
 
+### the complete code
+as library provided, modified a bit to used to test the MS351, change to 2MHz, commented as many as possible to see thay pulse chain pasued 200us at every period of 98Hz.  
+
 ### the result
 desired 2MHz clock output at clk0, but.....and why ?
 
