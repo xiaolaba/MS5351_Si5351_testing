@@ -13,3 +13,14 @@ this is code snipeet
   //si5351.set_freq(1400000000ULL, SI5351_CLK0); why 1,400,000,000  ??? 14MHz x 100 ??
   si5351.set_freq(   200000000ULL, SI5351_CLK0); // destired 2MHz, but 1.3MHz frequency, why ?
 ```
+
+
+### the result
+desired 2MHz clock output at clk0, but.....and why ?
+
+pause_200us_98Hz_why.JPG
+![pause_200us_98Hz_why.JPG](pause_200us_98Hz_why.JPG)  
+
+   
+S5351_MS5351_compare1.JPG
+![S5351_MS5351_compare1.JPG](S5351_MS5351_compare1.JPG)  
