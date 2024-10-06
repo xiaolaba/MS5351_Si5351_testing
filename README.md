@@ -18,6 +18,9 @@ this is code snipeet
 ### the result
 desired 2MHz clock output at clk0, but.....and why ?
 
+2MHz_vs_1.3MHz.JPG  
+![2MHz_vs_1.3MHz.JPG](2MHz_vs_1.3MHz.JPG)  
+
 pause_200us_98Hz_why.JPG
 ![pause_200us_98Hz_why.JPG](pause_200us_98Hz_why.JPG)  
 
