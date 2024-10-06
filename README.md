@@ -17,7 +17,7 @@ https://github.com/etherkit/Si5351Arduino
 
 example code, something is missing and I did not undestand yet.
 
-this is code snipet  
+this is code snippet  
 ```
   // Set CLK0 to output 14 MHz 14,000,000 Hz
   //si5351.set_freq(1400000000ULL, SI5351_CLK0); why 1,400,000,000  ??? 14MHz x 100 ??
