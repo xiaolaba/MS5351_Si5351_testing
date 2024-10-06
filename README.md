@@ -1,6 +1,9 @@
 # MS5351_Si5351_testing
 MS5351 and Si5351, many sayings they are equivalent and no need to code change and comprehensive pin-to-pin replacement, let me try...
 
+![M5351_testing.jpg](M5351_testing.jpg)  
+
+
 PIN connection  
 UNO      - Si5351 module (FAKE), actual chip is MS5351M  
 A4 (SDA) - SDA  
