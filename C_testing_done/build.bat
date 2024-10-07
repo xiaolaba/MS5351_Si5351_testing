@@ -7,7 +7,7 @@ prompt xiao$G$S
 @echo off
 
 del *.elf
-del *.hex
+::del *.hex
 del *.lst
 del *.o
 del *.s
